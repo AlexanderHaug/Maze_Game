@@ -1,0 +1,123 @@
+h1 {
+    background: blue;
+}
+
+footer {
+    background: grey;
+}
+
+table {
+    table-layout: fixed;
+    width: 450px;
+    height: 450px;
+  }
+
+tr td {
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.start {
+    background-color: yellow;
+}
+
+.exit {
+    background-color: red;
+}
+
+.current {
+    background-color: green;
+}
+
+/* Move Counter */
+.move-counter {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 500px;
+    bottom: 400px;
+    border: ridge;
+    border-color: blue;
+    padding: 5px 5px;
+}
+
+.move-counter h2 {
+    position: relative;
+    align-content: center;
+    left: 7px;
+}
+
+.move-counter p {
+    position: relative;
+    left: 42px;
+}
+
+/* Reset Button */
+.reset-button {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    left: 500px;
+    bottom: 300px;
+    border: ridge;
+    background-color: orange;
+    border-color: black;
+    padding: 5px 5px;
+}
+
+.reset-button:hover  {
+    background-color: darkorange;
+    border-color: black;
+}
+
+/* Borders */
+
+.top-left-corner {
+    border-right: none;
+    border-bottom: none;
+}
+
+.bottom-left-corner {
+    border-right: none;
+    border-top: none;
+}
+
+.top-right-corner {
+    border-left: none;
+    border-bottom: none;
+}
+
+.bottom-right-corner {
+    border-left: none;
+    border-top: none;
+}
+
+.left-right-tube {
+    border-top: none;
+    border-bottom: none;
+}
+
+.top-bottom-tube {
+    border-left: none;
+    border-right: none;
+}
+
+/* Conditions to remove excess borders */
+
+.overTop {
+    border-top: none;
+}
+
+.overLeft {
+    border-left: none;
+}
+
+.overRight {
+    border-right: none;
+}
+
+.overBottom {
+    border-bottom: none;
+}

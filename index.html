@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>HAUUUUG Maze Game</title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <p>Some Header</p>
+        </header>
+        <main>
+            <h1>
+                <p>Initial Maze</p>
+            </h1>
+            <section class="interactive-area">
+                <div>
+                    <table cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td class="top-left-corner"></td>
+                            <td class="top-bottom-tube"></td>
+                            <td class="top-right-corner"></td>
+                        </tr>
+                        <tr>
+                            <td class="bottom-left-corner"></td>
+                            <td class="top-bottom-tube overTop start current"></td>
+                            <td class="left-right-tube"></td>
+                        </tr>
+                        <tr>
+                            <td class="top-bottom-tube overTop exit"></td>
+                            <td class="top-bottom-tube overTop"></td>
+                            <td class="bottom-right-corner"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="move-counter">
+                    <h2>Counter</h2>
+                    <p>0</p>
+                </div>
+                <div class="reset-button">
+                    <p>Reset</p>
+                </div>
+                <script src="scripts/maze.js"></script>
+            </section>
+        </main>
+        <footer>
+            <a href="scoreboard.html">To Scoreboard</a>
+        </footer>
+    </body>
+</html>
